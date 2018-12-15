@@ -1,3 +1,41 @@
-.red{
-  color: red;
+body{
+  background: white url(./wall.jpg) no-repeat center center;
+  background-size:cover; 
+  background-position: 10px 0px;
+}
+span{
+  font-family: 楷体;
+  font-size: 30px;
+}
+.green{
+  
+  color: #58D68D;
+  box-shadow: 10px 10px 11px 1px rgba(184,230,203,1);
+}
+.images{
+  display: flex;
+  align-items: flex-start;
+  transition: all 1s;
+}
+
+.window{
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  margin-top: 280px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.buttons{
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+}
+.button{
+  margin: 0 55px;
+}
+img{
+  border-radius: 50%;
 }

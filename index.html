@@ -5,33 +5,24 @@
   <link rel="stylesheet" href="style.css">
   <meta charset="utf-8">
   <title>有缝轮播</title>
-  <style>
-    .images{
-      display: flex;
-      align-items: flex-start;
-      transition: transform 0.5s;
-    }
-    .window{
-      width: 300px;
-      overflow: hidden;
-    }
-
-  </style>
 </head>
 
 <body>
-  <div class="window">
-    <div class="images" id=images>
-      <img src="https://gss0.baidu.com/94o3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/a9d3fd1f4134970a08b25d3b90cad1c8a6865de4.jpg" width=300 height=300 alt="">
-      <img src="https://cn.portal-pokemon.com/play/resources/pokedex/img/pm/d0ee81f16175c97770192fb691fdda8da1f4f349.png" width=300 alt="">
-      <img src="http://p17.qhmsg.com/t018cbb035ef1817052.jpg" width=300 alt="">
-    </div>
+  <div class="container">
+      <div class="window">
+          <div class="images" id=images>
+            <img src="https://gss0.baidu.com/94o3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/a9d3fd1f4134970a08b25d3b90cad1c8a6865de4.jpg" width=300 height=300 alt="">
+            <img src="http://58pic.ooopic.com/58pic/15/44/82/36A58PICtFS.jpg" width=300 height=300 alt="">
+            <img src="http://p17.qhmsg.com/t018cbb035ef1817052.jpg" width=300 alt="">
+          </div>
+        </div>
+        <span class=buttons id=buttons>
+          <span class=button>妙蛙种子</span>
+          <span class=button>小火龙</span>
+          <span class=button>杰尼龟</span>
+        </span>
+        <div class="bg"></div>
   </div>
-  <span id=buttons>
-    <span>第1张</span>
-    <span>第2张</span>
-    <span>第3张</span>
-  </span>
 
   <script src="./jquery-3.3.1.min.js"></script>
   <script src="./main.js"></script>

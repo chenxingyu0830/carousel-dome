@@ -27,14 +27,14 @@ function playSlide(index){
 }
 function activeButton($button){
   $button
-    .addClass('red')
-    .siblings('.red').removeClass('red')  
+    .addClass('green')
+    .siblings('.green').removeClass('green')  
 }
 function setTimer(){
   return setInterval(()=>{
     n +=1
     playSlide(n % size)
-  },1000)
+  },3000)
 }
 $('.window').on('mouseenter',function(){
   window.clearInterval(timerId)
